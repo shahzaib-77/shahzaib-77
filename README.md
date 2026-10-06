@@ -1,15 +1,25 @@
 <div align="center">
 
   <!-- Main Hero Banner -->
-  <img src="./assets/hero.svg?v=3" alt="M. Shahzaib Hero Banner" width="100%" />
+  <img src="./assets/hero.svg?v=4" alt="M. Shahzaib Hero Banner" width="100%" />
 
   <br/><br/>
 
-  <!-- Ultra-Sleek Custom Animated Navbar Strip (Replaced Boring Badges) -->
+  <!-- Ultra-Sleek Custom Animated Navbar Strip -->
   <a href="mailto:m.shahzaibwajid0647@gmail.com">
-    <img src="./assets/navbar.svg?v=3" alt="M. Shahzaib Social Navbar" width="100%" />
+    <img src="./assets/navbar.svg?v=4" alt="M. Shahzaib Social Navbar" width="100%" />
   </a>
 
+</div>
+
+<br/>
+
+---
+
+### 🐍 Contribution Grid Cyber Snake Game
+
+<div align="center">
+  <img src="./assets/snake-game.svg?v=4" alt="Cyber Contribution Snake Game" width="100%" />
 </div>
 
 <br/>
@@ -19,7 +29,7 @@
 ### 💻 Cyber Hacker Terminal Diagnostics
 
 <div align="center">
-  <img src="./assets/terminal-matrix.svg?v=3" alt="Cyberpunk Terminal Diagnostics" width="100%" />
+  <img src="./assets/terminal-matrix.svg?v=4" alt="Cyberpunk Terminal Diagnostics" width="100%" />
 </div>
 
 <br/>
@@ -29,7 +39,7 @@
 ### 🏆 Cyber Achievements & Accolades
 
 <div align="center">
-  <img src="./assets/achievements-badges.svg?v=3" alt="Achievements & Badges" width="100%" />
+  <img src="./assets/achievements-badges.svg?v=4" alt="Achievements & Badges" width="100%" />
 </div>
 
 <br/>
@@ -39,7 +49,7 @@
 ### ⚡ Capabilities & Passions Carousel
 
 <div align="center">
-  <img src="./assets/about-life.svg?v=3" alt="Capabilities & Focus Carousel" width="100%" />
+  <img src="./assets/about-life.svg?v=4" alt="Capabilities & Focus Carousel" width="100%" />
 </div>
 
 <br/>
@@ -49,7 +59,7 @@
 ### 🛠️ Orbital Tech Stack Ecosystem
 
 <div align="center">
-  <img src="./assets/stack.svg?v=3" alt="Orbital Tech Ecosystem" width="100%" />
+  <img src="./assets/stack.svg?v=4" alt="Orbital Tech Ecosystem" width="100%" />
 </div>
 
 <br/>
@@ -59,7 +69,7 @@
 ### 🚀 Flagship Projects Showcase
 
 <div align="center">
-  <img src="./assets/projects-showcase.svg?v=3" alt="Flagship Projects Showcase" width="100%" />
+  <img src="./assets/projects-showcase.svg?v=4" alt="Flagship Projects Showcase" width="100%" />
 </div>
 
 <br/>
@@ -69,7 +79,7 @@
 ### 📊 Verified Engineering Stats & Dashboard
 
 <div align="center">
-  <img src="./assets/id-dashboard.svg?v=3" alt="Engineering Stats & Lanyard ID" width="100%" />
+  <img src="./assets/id-dashboard.svg?v=4" alt="Engineering Stats & Lanyard ID" width="100%" />
 </div>
 
 <br/>
@@ -90,14 +100,14 @@
 ### 🤝 Connect & Collaborate
 
 <div align="center">
-  <img src="./assets/connect.svg?v=3" alt="Connect with M. Shahzaib" width="100%" />
+  <img src="./assets/connect.svg?v=4" alt="Connect with M. Shahzaib" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
 
-### 💡 Quick Summary
+### 💡 Quick Executive Summary
 
 | Metric / Detail | Value |
 | :--- | :--- |

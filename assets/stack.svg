@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="100%" height="100%">
   <defs>
     <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070b16"/>
-      <stop offset="100%" stop-color="#0d1322"/>
+      <stop offset="0%" stop-color="#040711"/>
+      <stop offset="100%" stop-color="#0c1426"/>
     </linearGradient>
 
     <linearGradient id="borderGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -13,30 +13,30 @@
 
     <style>
       .title-stack { font-family: 'Segoe UI', system-ui, sans-serif; font-weight: 800; font-size: 18px; fill: #f0f4fc; letter-spacing: 1px; }
-      .chip-cat { font-family: 'Segoe UI', system-ui, sans-serif; font-weight: 700; font-size: 12px; fill: #38bdf8; letter-spacing: 1px; }
-      .chip-text { font-family: 'Fira Code', monospace; font-size: 12px; fill: #e2e8f0; }
+      .chip-cat { font-family: 'Segoe UI', system-ui, sans-serif; font-weight: 700; font-size: 12px; fill: #38bdf8; letter-spacing: 1.5px; }
+      .chip-text { font-family: 'Fira Code', monospace; font-size: 12px; fill: #e2e8f0; font-weight: 600; }
       .orbit-label { font-family: 'Segoe UI', sans-serif; font-size: 11px; fill: #94a3b8; font-weight: 600; }
     </style>
   </defs>
 
-  <rect width="800" height="420" rx="16" fill="url(#bgGrad3)"/>
-  <rect width="798" height="418" x="1" y="1" rx="15" fill="none" stroke="url(#borderGrad3)" stroke-width="1.5" stroke-opacity="0.6"/>
+  <rect width="800" height="440" rx="16" fill="url(#bgGrad3)"/>
+  <rect width="798" height="438" x="1" y="1" rx="15" fill="none" stroke="url(#borderGrad3)" stroke-width="1.5"/>
 
   <!-- Header -->
   <g transform="translate(35, 35)">
+    <path d="M 0 0 L 12 -10 L 24 0 L 12 10 Z" fill="#247bff" opacity="0.3"/>
     <text x="0" y="0" class="title-stack">🛠️ TECH STACK &amp; ORBITAL ECOSYSTEM</text>
   </g>
 
   <!-- Orbits Visualizer (Right Top) -->
-  <g transform="translate(560, 135)">
-    <!-- Elliptical Orbits -->
+  <g transform="translate(560, 145)">
     <ellipse cx="0" cy="0" rx="160" ry="70" fill="none" stroke="#247bff" stroke-width="1.2" stroke-dasharray="4 4" stroke-opacity="0.4"/>
     <ellipse cx="0" cy="0" rx="115" ry="50" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.5"/>
     <ellipse cx="0" cy="0" rx="70" ry="30" fill="none" stroke="#ff354f" stroke-width="1.2" stroke-opacity="0.6"/>
 
     <!-- Center Core -->
     <circle cx="0" cy="0" r="18" fill="#247bff" fill-opacity="0.2" stroke="#38bdf8" stroke-width="2"/>
-    <text x="-10" y="5" font-size="14">⚡</text>
+    <circle cx="0" cy="0" r="6" fill="#38bdf8"/>
 
     <!-- Animated Orbiting Nodes -->
     <g>
@@ -46,40 +46,35 @@
       <circle cx="0" cy="0" r="7" fill="#ff354f">
         <animateMotion path="M -115,0 A 115 50 0 1 1 115,0 A 115 50 0 1 1 -115,0" dur="7s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="0" cy="0" r="8" fill="#a7f3d0">
+      <circle cx="0" cy="0" r="8" fill="#6ee7b7">
         <animateMotion path="M -160,0 A 160 70 0 1 1 160,0 A 160 70 0 1 1 -160,0" dur="10s" repeatCount="indefinite"/>
       </circle>
     </g>
 
     <!-- Labels -->
-    <text x="-160" y="85" class="orbit-label">Outer: DevOps &amp; Cloud</text>
-    <text x="-20" y="85" class="orbit-label">Mid: Web/Mobile</text>
-    <text x="90" y="85" class="orbit-label">Core: AI Engine</text>
+    <text x="-160" y="90" class="orbit-label">Outer: DevOps &amp; Cloud</text>
+    <text x="-20" y="90" class="orbit-label">Mid: Web/Mobile</text>
+    <text x="90" y="90" class="orbit-label">Core: AI Engine</text>
   </g>
 
-  <!-- Left Side Categorized Chips -->
-  <g transform="translate(35, 70)">
+  <!-- Left Side Categorized Chips (Fixed Positions & Spacing!) -->
+  <g transform="translate(35, 75)">
     
     <!-- Category 1: Languages -->
     <g transform="translate(0, 0)">
       <text x="0" y="15" class="chip-cat">LANGUAGES</text>
-      <!-- Chips -->
       <g transform="translate(0, 25)">
-        <!-- Python -->
-        <rect width="85" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <rect width="90" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
         <text x="12" y="20" class="chip-text">🐍 Python</text>
 
-        <!-- TypeScript -->
-        <rect x="95" width="105" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="107" y="20" class="chip-text">📘 TypeScript</text>
+        <rect x="100" width="115" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="112" y="20" class="chip-text">📘 TypeScript</text>
 
-        <!-- JavaScript -->
-        <rect x="210" width="105" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="222" y="20" class="chip-text">💛 JavaScript</text>
+        <rect x="225" width="115" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="237" y="20" class="chip-text">💛 JavaScript</text>
 
-        <!-- Dart -->
-        <rect x="325" width="70" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="337" y="20" class="chip-text">🎯 Dart</text>
+        <rect x="350" width="75" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="362" y="20" class="chip-text">🎯 Dart</text>
       </g>
     </g>
 
@@ -87,47 +82,40 @@
     <g transform="translate(0, 85)">
       <text x="0" y="15" class="chip-cat">FRAMEWORKS &amp; WEB</text>
       <g transform="translate(0, 25)">
-        <!-- React -->
-        <rect width="80" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <rect width="85" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
         <text x="12" y="20" class="chip-text">⚛️ React</text>
 
-        <!-- Next.js -->
-        <rect x="90" width="85" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="102" y="20" class="chip-text">▲ Next.js</text>
+        <rect x="95" width="95" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="107" y="20" class="chip-text">▲ Next.js</text>
 
-        <!-- Flutter -->
-        <rect x="185" width="85" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="197" y="20" class="chip-text">💙 Flutter</text>
+        <rect x="200" width="90" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="212" y="20" class="chip-text">💙 Flutter</text>
 
-        <!-- Node.js -->
-        <rect x="280" width="90" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="292" y="20" class="chip-text">🟢 Node.js</text>
+        <rect x="300" width="95" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="312" y="20" class="chip-text">🟢 Node.js</text>
 
-        <!-- FastAPI -->
-        <rect x="380" width="85" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="392" y="20" class="chip-text">⚡ FastAPI</text>
+        <rect x="405" width="90" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="417" y="20" class="chip-text">⚡ FastAPI</text>
       </g>
     </g>
 
-    <!-- Category 3: AI & Workflows -->
+    <!-- Category 3: AI Ecosystem (Fixed Overflow: RAG VectorDB w:145, Multi-Agent w:135, offsets: 0, 125, 235, 390!) -->
     <g transform="translate(0, 170)">
       <text x="0" y="15" class="chip-cat">AI &amp; AGENTIC ECOSYSTEM</text>
       <g transform="translate(0, 25)">
-        <!-- LangChain -->
-        <rect width="105" height="30" rx="6" fill="#1e293b" stroke="#247bff"/>
+        <rect width="115" height="30" rx="6" fill="#1e293b" stroke="#247bff"/>
         <text x="12" y="20" class="chip-text" fill="#38bdf8">🦜 LangChain</text>
 
-        <!-- OpenAI -->
-        <rect x="115" width="100" height="30" rx="6" fill="#1e293b" stroke="#247bff"/>
-        <text x="127" y="20" class="chip-text" fill="#38bdf8">🤖 OpenAI</text>
+        <rect x="125" width="100" height="30" rx="6" fill="#1e293b" stroke="#247bff"/>
+        <text x="137" y="20" class="chip-text" fill="#38bdf8">🤖 OpenAI</text>
 
-        <!-- RAG -->
-        <rect x="225" width="115" height="30" rx="6" fill="#1e293b" stroke="#247bff"/>
-        <text x="237" y="20" class="chip-text" fill="#38bdf8">🔍 RAG / VectorDB</text>
+        <!-- Fixed RAG VectorDB Width to 145px! -->
+        <rect x="235" width="145" height="30" rx="6" fill="#1e293b" stroke="#247bff"/>
+        <text x="247" y="20" class="chip-text" fill="#38bdf8">🔍 RAG / VectorDB</text>
 
-        <!-- Multi-Agent -->
-        <rect x="350" width="130" height="30" rx="6" fill="#1e293b" stroke="#247bff"/>
-        <text x="362" y="20" class="chip-text" fill="#38bdf8">⚙️ Multi-Agent AI</text>
+        <!-- Multi-Agent AI Offset to 390px! -->
+        <rect x="390" width="135" height="30" rx="6" fill="#1e293b" stroke="#247bff"/>
+        <text x="402" y="20" class="chip-text" fill="#38bdf8">⚙️ Multi-Agent AI</text>
       </g>
     </g>
 
@@ -135,21 +123,17 @@
     <g transform="translate(0, 255)">
       <text x="0" y="15" class="chip-cat">DEVOPS &amp; DATABASE</text>
       <g transform="translate(0, 25)">
-        <!-- Docker -->
-        <rect width="90" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <rect width="95" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
         <text x="12" y="20" class="chip-text">🐋 Docker</text>
 
-        <!-- PostgreSQL -->
-        <rect x="100" width="115" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="112" y="20" class="chip-text">🐘 PostgreSQL</text>
+        <rect x="105" width="120" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="117" y="20" class="chip-text">🐘 PostgreSQL</text>
 
-        <!-- Git -->
-        <rect x="225" width="65" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="237" y="20" class="chip-text">🐙 Git</text>
+        <rect x="235" width="70" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="247" y="20" class="chip-text">🐙 Git</text>
 
-        <!-- Linux -->
-        <rect x="300" width="75" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
-        <text x="312" y="20" class="chip-text">🐧 Linux</text>
+        <rect x="315" width="80" height="30" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="327" y="20" class="chip-text">🐧 Linux</text>
       </g>
     </g>
   </g>
