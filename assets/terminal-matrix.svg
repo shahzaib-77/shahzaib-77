@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="100%" stop-color="#0a0f24"/>
+    </linearGradient>
+
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+
+    <style>
+      .term-header { font-family: 'Fira Code', monospace; font-size: 13px; fill: #94a3b8; font-weight: 600; }
+      .term-cmd { font-family: 'Fira Code', monospace; font-size: 13px; fill: #38bdf8; font-weight: 700; }
+      .term-out { font-family: 'Fira Code', monospace; font-size: 12px; fill: #cbd5e1; }
+      .term-success { font-family: 'Fira Code', monospace; font-size: 12px; fill: #6ee7b7; font-weight: 600; }
+      .term-highlight { font-family: 'Fira Code', monospace; font-size: 12px; fill: #ff758f; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="800" height="380" rx="16" fill="url(#termBg)"/>
+  <rect width="798" height="378" x="1" y="1" rx="15" fill="none" stroke="url(#termBorder)" stroke-width="1.5"/>
+
+  <!-- Terminal Window Bar -->
+  <path d="M 1 1 L 799 1 L 799 38 L 1 38 Z" fill="#0d1428" rx="15"/>
+  <rect x="1" y="24" width="798" height="14" fill="#0d1428"/>
+  
+  <!-- Window Control Buttons -->
+  <circle cx="24" cy="20" r="6" fill="#ff354f"/>
+  <circle cx="42" cy="20" r="6" fill="#f59e0b"/>
+  <circle cx="60" cy="20" r="6" fill="#10b981"/>
+
+  <!-- Terminal Title -->
+  <text x="400" y="24" text-anchor="middle" class="term-header">shahzaib@zaphtech-core:~ (zsh)</text>
+
+  <!-- Terminal Body Content -->
+  <g transform="translate(30, 70)">
+    <!-- Line 1: Command -->
+    <text x="0" y="0" class="term-cmd">shahzaib@zaphtech-core:~$ init_ai_agent_swarm --mode=autonomous --cluster=global</text>
+
+    <!-- Line 2: Output -->
+    <g transform="translate(0, 28)">
+      <text x="0" y="0" class="term-success">[OK] Multi-Agent Swarm Initialized — 12 Autonomous Agents Active</text>
+    </g>
+
+    <!-- Line 3: Output -->
+    <g transform="translate(0, 52)">
+      <text x="0" y="0" class="term-out">[INFO] Vector RAG Index loaded: 50,000+ Semantic Embeddings (Pinecone/Milvus)</text>
+    </g>
+
+    <!-- Line 4: Command 2 -->
+    <g transform="translate(0, 85)">
+      <text x="0" y="0" class="term-cmd">shahzaib@zaphtech-core:~$ check_system_diagnostics --all</text>
+    </g>
+
+    <!-- Line 5: Output Metrics -->
+    <g transform="translate(0, 113)">
+      <text x="0" y="0" class="term-out">├── Full-Stack Engine: <tspan class="term-success">React 19 / Next.js 15 SSR (Optimal)</tspan></text>
+      <text x="0" y="22" class="term-out">├── Mobile Engine: <tspan class="term-highlight">Flutter &amp; Dart (120 FPS Rendering)</tspan></text>
+      <text x="0" y="44" class="term-out">├── Backend API: <tspan class="term-success">FastAPI / Node.js Microservices (14ms Latency)</tspan></text>
+      <text x="0" y="66" class="term-out">└── Cloud Infrastructure: <tspan class="term-out">Docker Containers &amp; CI/CD Pipelines Operational</tspan></text>
+    </g>
+
+    <!-- Line 6: Active Command Prompt with Blinking Cursor -->
+    <g transform="translate(0, 220)">
+      <text x="0" y="0" class="term-cmd">shahzaib@zaphtech-core:~$ <tspan fill="#6ee7b7">status --ready-for-new-projects</tspan></text>
+      <!-- Blinking Cursor -->
+      <rect x="425" y="-12" width="9" height="16" fill="#38bdf8">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- System Telemetry Footer -->
+    <g transform="translate(0, 260)">
+      <rect width="740" height="30" rx="6" fill="#0d172a" stroke="#1e293b"/>
+      <text x="15" y="19" font-family="'Fira Code', monospace" font-size="11" fill="#94a3b8">CPU: 14% | RAM: 4.8GB / 64GB | NET: 10 Gbps | UP TIME: 99.99% | STATUS: READY</text>
+    </g>
+  </g>
+</svg>
