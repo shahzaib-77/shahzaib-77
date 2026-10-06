@@ -46,9 +46,9 @@
     <style>
       .badge-text { font-family: 'Fira Code', monospace; font-weight: 700; font-size: 11px; fill: #38bdf8; letter-spacing: 2px; }
       .title-main { font-family: 'Segoe UI', system-ui, sans-serif; font-weight: 900; font-size: 44px; fill: url(#primaryGrad); letter-spacing: -1px; }
-      .role-text { font-family: 'Fira Code', 'Consolas', monospace; font-weight: 700; font-size: 16px; fill: #f0f4fc; }
+      .role-text { font-family: 'Fira Code', 'Consolas', monospace; font-weight: 700; font-size: 15px; fill: #f0f4fc; }
       .pitch-text { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 14px; fill: #94a3b8; line-height: 1.5; }
-      .meta-label { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; fill: #cbd5e1; font-weight: 600; }
+      .meta-label { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; fill: #cbd5e1; font-weight: 700; }
       
       @keyframes floatAnim {
         0%, 100% { transform: translateY(0px); }
@@ -82,11 +82,11 @@
   <g transform="translate(45, 45)">
     <!-- Top System Badge -->
     <g transform="translate(0, 0)">
-      <rect width="230" height="28" rx="14" fill="#0d172a" fill-opacity="0.9" stroke="#247bff" stroke-opacity="0.6"/>
+      <rect width="285" height="28" rx="14" fill="#0d172a" fill-opacity="0.9" stroke="#247bff" stroke-opacity="0.6"/>
       <circle cx="15" cy="14" r="4" fill="#10b981" filter="url(#glow)">
         <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="18" class="badge-text">SYSTEM ONLINE • AI ARCHITECT</text>
+      <text x="28" y="18" class="badge-text">SYSTEM ONLINE • AGENCY OWNER &amp; AI LEAD</text>
     </g>
 
     <!-- Main Title Reveal -->
@@ -101,61 +101,55 @@
 
       <!-- Role 1 -->
       <text x="16" y="25" class="role-text" fill="#38bdf8">
-        &gt; AI Agent Architect &amp; LLM Orchestrator
+        &gt; Founder &amp; CEO @ Zaphtech Agency
         <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.72;0.75;0.97;1;1;1" dur="12s" repeatCount="indefinite"/>
       </text>
 
       <!-- Role 2 -->
       <text x="16" y="25" class="role-text" fill="#ff354f">
-        &gt; Full-Stack Architect (React 19 / Next.js 15)
+        &gt; AI Agent Architect &amp; LLM Engineer
         <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.24;0.27;0.47;0.50;0.97;1;1" dur="12s" repeatCount="indefinite"/>
       </text>
 
       <!-- Role 3 -->
       <text x="16" y="25" class="role-text" fill="#6ee7b7">
-        &gt; Mobile App Engineer (Flutter &amp; Dart)
+        &gt; Full-Stack Architect (React 19 / Next.js 15)
         <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.49;0.52;0.72;0.75;0.97;1;1" dur="12s" repeatCount="indefinite"/>
       </text>
 
       <!-- Role 4 -->
       <text x="16" y="25" class="role-text" fill="#c084fc">
-        &gt; Founder &amp; Tech Lead @ Zaphtech Solutions
+        &gt; Mobile App Lead (Flutter &amp; Dart)
         <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.74;0.77;0.97;0.99;1;1;1" dur="12s" repeatCount="indefinite"/>
       </text>
     </g>
 
     <!-- Pitch Text -->
     <g transform="translate(0, 185)">
-      <text x="0" y="0" class="pitch-text">Architecting autonomous AI agent swarms, ultra-scalable web platforms,</text>
-      <text x="0" y="22" class="pitch-text">and high-performance cross-platform mobile apps for global scale.</text>
+      <text x="0" y="0" class="pitch-text">Leading Zaphtech Software Agency — Architecting autonomous AI agent</text>
+      <text x="0" y="22" class="pitch-text">swarms, enterprise web platforms, and mobile apps for global clients.</text>
     </g>
 
-    <!-- Metadata Badges Row -->
+    <!-- Metadata Badges Row (Removed Pakistan, Added Founder & CEO Agency Badge) -->
     <g transform="translate(0, 255)">
-      <!-- Location -->
+      <!-- Founder & CEO Badge -->
       <g transform="translate(0, 0)">
-        <rect width="135" height="34" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#334155"/>
-        <text x="14" y="21" class="meta-label">📍 Pakistan (PKT)</text>
+        <rect width="210" height="34" rx="8" fill="#1e293b" fill-opacity="0.8" stroke="#ff354f" stroke-opacity="0.8"/>
+        <text x="14" y="21" class="meta-label" fill="#ff758f">👑 Founder &amp; CEO @ Zaphtech</text>
       </g>
       
-      <!-- Company -->
-      <g transform="translate(147, 0)">
-        <rect width="145" height="34" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#334155"/>
-        <text x="14" y="21" class="meta-label">💼 Zaphtech Ltd</text>
-      </g>
-
-      <!-- Status -->
-      <g transform="translate(304, 0)">
-        <rect width="155" height="34" rx="8" fill="#064e3b" fill-opacity="0.5" stroke="#10b981" stroke-opacity="0.6"/>
+      <!-- Agency Service Badge -->
+      <g transform="translate(222, 0)">
+        <rect width="238" height="34" rx="8" fill="#064e3b" fill-opacity="0.5" stroke="#10b981" stroke-opacity="0.6"/>
         <circle cx="15" cy="17" r="4" fill="#10b981" filter="url(#glow)">
           <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
         </circle>
-        <text x="26" y="21" class="meta-label" fill="#6ee7b7">Available for Hire</text>
+        <text x="26" y="21" class="meta-label" fill="#6ee7b7">Available for Agency Projects</text>
       </g>
     </g>
   </g>
 
-  <!-- Right Column: Holographic Portrait Card (Parent handles X=535, Y=45 so CSS translateY never resets X) -->
+  <!-- Right Column: Holographic Portrait Card -->
   <g transform="translate(535, 45)">
     <g class="floating-card">
       <rect width="220" height="320" rx="20" fill="#0b1326" stroke="url(#borderGrad)" stroke-width="2"/>
@@ -167,10 +161,10 @@
       <rect x="5" y="5" width="210" height="310" rx="18" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3"/>
 
       <!-- Status Badge overlay -->
-      <g transform="translate(20, 270)">
-        <rect width="180" height="32" rx="16" fill="#040711" fill-opacity="0.9" stroke="#38bdf8" stroke-width="1.5"/>
+      <g transform="translate(15, 270)">
+        <rect width="190" height="32" rx="16" fill="#040711" fill-opacity="0.9" stroke="#38bdf8" stroke-width="1.5"/>
         <circle cx="18" cy="16" r="4" fill="#38bdf8" filter="url(#glow)"/>
-        <text x="30" y="20" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#f0f4fc" letter-spacing="1">AI ARCHITECT ID</text>
+        <text x="28" y="20" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#f0f4fc" letter-spacing="1">AGENCY OWNER ID</text>
       </g>
     </g>
   </g>

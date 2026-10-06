@@ -58,14 +58,14 @@
       <text x="82" y="122" text-anchor="middle" class="badge-sub">120 FPS Mobile Apps</text>
     </g>
 
-    <!-- Badge 4 -->
+    <!-- Badge 4: Zaphtech Founder & CEO -->
     <g transform="translate(564, 0)">
       <rect width="165" height="150" rx="14" fill="#0d172a" stroke="#a855f7" stroke-width="1.5"/>
       <polygon points="82,25 105,38 105,65 82,78 59,65 59,38" fill="#a855f7" fill-opacity="0.2" stroke="#c084fc" stroke-width="2"/>
-      <text x="82" y="57" text-anchor="middle" font-size="22">🏢</text>
+      <text x="82" y="57" text-anchor="middle" font-size="22">👑</text>
 
       <text x="82" y="102" text-anchor="middle" class="badge-lbl" fill="#c084fc">Zaphtech Founder</text>
-      <text x="82" y="122" text-anchor="middle" class="badge-sub">Tech Leadership</text>
+      <text x="82" y="122" text-anchor="middle" class="badge-sub">CEO &amp; Agency Lead</text>
     </g>
 
   </g>

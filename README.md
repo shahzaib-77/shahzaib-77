@@ -1,22 +1,13 @@
 <div align="center">
 
   <!-- Main Hero Banner -->
-  <img src="./assets/hero.svg?v=2" alt="M. Shahzaib Hero Banner" width="100%" />
+  <img src="./assets/hero.svg?v=3" alt="M. Shahzaib Hero Banner" width="100%" />
 
   <br/><br/>
 
-  <!-- Interactive Social Shields Badges -->
+  <!-- Ultra-Sleek Custom Animated Navbar Strip (Replaced Boring Badges) -->
   <a href="mailto:m.shahzaibwajid0647@gmail.com">
-    <img src="https://img.shields.io/badge/Email-m.shahzaibwajid0647%40gmail.com-247bff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/shahzaib-77">
-    <img src="https://img.shields.io/badge/GitHub-shahzaib--77-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Organization-Zaphtech-ff354f?style=for-the-badge&logo=rocket&logoColor=white" alt="Zaphtech" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Status-Available_for_Hire-10b981?style=for-the-badge&logo=codeforces&logoColor=white" alt="Status" />
+    <img src="./assets/navbar.svg?v=3" alt="M. Shahzaib Social Navbar" width="100%" />
   </a>
 
 </div>
@@ -28,7 +19,7 @@
 ### 💻 Cyber Hacker Terminal Diagnostics
 
 <div align="center">
-  <img src="./assets/terminal-matrix.svg?v=2" alt="Cyberpunk Terminal Diagnostics" width="100%" />
+  <img src="./assets/terminal-matrix.svg?v=3" alt="Cyberpunk Terminal Diagnostics" width="100%" />
 </div>
 
 <br/>
@@ -38,7 +29,7 @@
 ### 🏆 Cyber Achievements & Accolades
 
 <div align="center">
-  <img src="./assets/achievements-badges.svg?v=2" alt="Achievements & Badges" width="100%" />
+  <img src="./assets/achievements-badges.svg?v=3" alt="Achievements & Badges" width="100%" />
 </div>
 
 <br/>
@@ -48,7 +39,7 @@
 ### ⚡ Capabilities & Passions Carousel
 
 <div align="center">
-  <img src="./assets/about-life.svg?v=2" alt="Capabilities & Focus Carousel" width="100%" />
+  <img src="./assets/about-life.svg?v=3" alt="Capabilities & Focus Carousel" width="100%" />
 </div>
 
 <br/>
@@ -58,7 +49,7 @@
 ### 🛠️ Orbital Tech Stack Ecosystem
 
 <div align="center">
-  <img src="./assets/stack.svg?v=2" alt="Orbital Tech Ecosystem" width="100%" />
+  <img src="./assets/stack.svg?v=3" alt="Orbital Tech Ecosystem" width="100%" />
 </div>
 
 <br/>
@@ -68,7 +59,7 @@
 ### 🚀 Flagship Projects Showcase
 
 <div align="center">
-  <img src="./assets/projects-showcase.svg?v=2" alt="Flagship Projects Showcase" width="100%" />
+  <img src="./assets/projects-showcase.svg?v=3" alt="Flagship Projects Showcase" width="100%" />
 </div>
 
 <br/>
@@ -78,7 +69,7 @@
 ### 📊 Verified Engineering Stats & Dashboard
 
 <div align="center">
-  <img src="./assets/id-dashboard.svg?v=2" alt="Engineering Stats & Lanyard ID" width="100%" />
+  <img src="./assets/id-dashboard.svg?v=3" alt="Engineering Stats & Lanyard ID" width="100%" />
 </div>
 
 <br/>
@@ -99,7 +90,7 @@
 ### 🤝 Connect & Collaborate
 
 <div align="center">
-  <img src="./assets/connect.svg?v=2" alt="Connect with M. Shahzaib" width="100%" />
+  <img src="./assets/connect.svg?v=3" alt="Connect with M. Shahzaib" width="100%" />
 </div>
 
 <br/>
@@ -111,14 +102,14 @@
 | Metric / Detail | Value |
 | :--- | :--- |
 | 👤 **Name** | **M. Shahzaib** |
-| 🎯 **Primary Role** | AI Agent Architect & Full-Stack Engineer |
-| 🏢 **Company** | Founder & Lead @ **Zaphtech Solutions** |
-| 💻 **Main Stack** | Python, TypeScript, React 19, Next.js 15, Flutter, LangChain, Docker |
-| 📍 **Location** | Pakistan (UTC+5) |
+| 👑 **Leadership** | **Founder & CEO @ Zaphtech Agency** |
+| 🎯 **Primary Specialty** | AI Agent Architect, Full-Stack & Mobile Engineer |
+| 🏢 **Agency Services** | Custom AI Agent Workflows, Web Platforms & Mobile Apps |
+| 💻 **Core Tech Stack** | Python, TypeScript, React 19, Next.js 15, Flutter, LangChain, Docker |
 | 📧 **Contact Email** | [m.shahzaibwajid0647@gmail.com](mailto:m.shahzaibwajid0647@gmail.com) |
 
 <br/>
 
-*Designed & Engineered with ❤️ for M. Shahzaib*
+*Designed & Engineered with ❤️ for M. Shahzaib — Zaphtech Software Agency*
 
 </div>

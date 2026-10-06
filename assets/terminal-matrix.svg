@@ -33,41 +33,41 @@
   <circle cx="60" cy="20" r="6" fill="#10b981"/>
 
   <!-- Terminal Title -->
-  <text x="400" y="24" text-anchor="middle" class="term-header">shahzaib@zaphtech-core:~ (zsh)</text>
+  <text x="400" y="24" text-anchor="middle" class="term-header">shahzaib@zaphtech-agency-core:~ (zsh)</text>
 
   <!-- Terminal Body Content -->
   <g transform="translate(30, 70)">
     <!-- Line 1: Command -->
-    <text x="0" y="0" class="term-cmd">shahzaib@zaphtech-core:~$ init_ai_agent_swarm --mode=autonomous --cluster=global</text>
+    <text x="0" y="0" class="term-cmd">shahzaib@zaphtech-agency:~$ init_agency_systems --role="Founder &amp; CEO"</text>
 
     <!-- Line 2: Output -->
     <g transform="translate(0, 28)">
-      <text x="0" y="0" class="term-success">[OK] Multi-Agent Swarm Initialized — 12 Autonomous Agents Active</text>
+      <text x="0" y="0" class="term-success">[OK] Zaphtech Software Agency Engine Active — Founder &amp; CEO Mode Enabled</text>
     </g>
 
     <!-- Line 3: Output -->
     <g transform="translate(0, 52)">
-      <text x="0" y="0" class="term-out">[INFO] Vector RAG Index loaded: 50,000+ Semantic Embeddings (Pinecone/Milvus)</text>
+      <text x="0" y="0" class="term-out">[INFO] AI Agent Swarms &amp; Enterprise Full-Stack Pipelines Ready</text>
     </g>
 
     <!-- Line 4: Command 2 -->
     <g transform="translate(0, 85)">
-      <text x="0" y="0" class="term-cmd">shahzaib@zaphtech-core:~$ check_system_diagnostics --all</text>
+      <text x="0" y="0" class="term-cmd">shahzaib@zaphtech-agency:~$ check_agency_capabilities --all</text>
     </g>
 
     <!-- Line 5: Output Metrics -->
     <g transform="translate(0, 113)">
-      <text x="0" y="0" class="term-out">├── Full-Stack Engine: <tspan class="term-success">React 19 / Next.js 15 SSR (Optimal)</tspan></text>
-      <text x="0" y="22" class="term-out">├── Mobile Engine: <tspan class="term-highlight">Flutter &amp; Dart (120 FPS Rendering)</tspan></text>
-      <text x="0" y="44" class="term-out">├── Backend API: <tspan class="term-success">FastAPI / Node.js Microservices (14ms Latency)</tspan></text>
-      <text x="0" y="66" class="term-out">└── Cloud Infrastructure: <tspan class="term-out">Docker Containers &amp; CI/CD Pipelines Operational</tspan></text>
+      <text x="0" y="0" class="term-out">├── AI Solutions: <tspan class="term-success">Autonomous Multi-Agent Systems &amp; RAG Pipelines</tspan></text>
+      <text x="0" y="22" class="term-out">├── Web Engineering: <tspan class="term-highlight">React 19, Next.js 15 &amp; Scalable Cloud APIs</tspan></text>
+      <text x="0" y="44" class="term-out">├── Mobile Engineering: <tspan class="term-success">Flutter &amp; Dart Cross-Platform Apps (120 FPS)</tspan></text>
+      <text x="0" y="66" class="term-out">└── Client Deliveries: <tspan class="term-out">100% On-Time Global Client Deployments</tspan></text>
     </g>
 
     <!-- Line 6: Active Command Prompt with Blinking Cursor -->
     <g transform="translate(0, 220)">
-      <text x="0" y="0" class="term-cmd">shahzaib@zaphtech-core:~$ <tspan fill="#6ee7b7">status --ready-for-new-projects</tspan></text>
+      <text x="0" y="0" class="term-cmd">shahzaib@zaphtech-agency:~$ <tspan fill="#6ee7b7">book_agency_consultation --available=now</tspan></text>
       <!-- Blinking Cursor -->
-      <rect x="425" y="-12" width="9" height="16" fill="#38bdf8">
+      <rect x="475" y="-12" width="9" height="16" fill="#38bdf8">
         <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
       </rect>
     </g>
@@ -75,7 +75,7 @@
     <!-- System Telemetry Footer -->
     <g transform="translate(0, 260)">
       <rect width="740" height="30" rx="6" fill="#0d172a" stroke="#1e293b"/>
-      <text x="15" y="19" font-family="'Fira Code', monospace" font-size="11" fill="#94a3b8">CPU: 14% | RAM: 4.8GB / 64GB | NET: 10 Gbps | UP TIME: 99.99% | STATUS: READY</text>
+      <text x="15" y="19" font-family="'Fira Code', monospace" font-size="11" fill="#94a3b8">AGENCY: ZAPHTECH | LEAD: M. SHAHZAIB (FOUNDER &amp; CEO) | STATUS: ACCEPTING PROJECTS</text>
     </g>
   </g>
 </svg>
