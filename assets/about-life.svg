@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+
+    <pattern id="dotGrid2" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#38bdf8" fill-opacity="0.08"/>
+    </pattern>
+
+    <style>
+      .sec-title { font-family: 'Segoe UI', system-ui, sans-serif; font-weight: 800; font-size: 18px; fill: #f0f4fc; letter-spacing: 1px; }
+      .cap-title { font-family: 'Segoe UI', system-ui, sans-serif; font-weight: 700; font-size: 14px; fill: #38bdf8; }
+      .cap-desc { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; fill: #94a3b8; line-height: 1.4; }
+      .carousel-title { font-family: 'Segoe UI', system-ui, sans-serif; font-weight: 700; font-size: 16px; fill: #f0f4fc; }
+      .carousel-body { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 13px; fill: #cbd5e1; line-height: 1.5; }
+    </style>
+  </defs>
+
+  <rect width="800" height="380" rx="16" fill="url(#bgGrad2)"/>
+  <rect width="800" height="380" rx="16" fill="url(#dotGrid2)"/>
+  <rect width="798" height="378" x="1" y="1" rx="15" fill="none" stroke="url(#borderGrad2)" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- Column 1: Core Capabilities -->
+  <g transform="translate(35, 35)">
+    <text x="0" y="0" class="sec-title">⚡ CORE CAPABILITIES</text>
+    
+    <!-- Item 1 -->
+    <g transform="translate(0, 25)">
+      <rect width="340" height="65" rx="10" fill="#1e293b" fill-opacity="0.5" stroke="#334155"/>
+      <circle cx="28" cy="32" r="14" fill="#247bff" fill-opacity="0.2"/>
+      <text x="23" y="37" font-size="14">🧠</text>
+      <text x="52" y="27" class="cap-title">AI &amp; Agentic Workflows</text>
+      <text x="52" y="46" class="cap-desc">Autonomous multi-agent systems, RAG, LLMs</text>
+    </g>
+
+    <!-- Item 2 -->
+    <g transform="translate(0, 100)">
+      <rect width="340" height="65" rx="10" fill="#1e293b" fill-opacity="0.5" stroke="#334155"/>
+      <circle cx="28" cy="32" r="14" fill="#ff354f" fill-opacity="0.2"/>
+      <text x="23" y="37" font-size="14">💻</text>
+      <text x="52" y="27" class="cap-title" fill="#ff758f">Full-Stack Web Systems</text>
+      <text x="52" y="46" class="cap-desc">React, Next.js, Node.js, Fast APIs &amp; DBs</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(0, 175)">
+      <rect width="340" height="65" rx="10" fill="#1e293b" fill-opacity="0.5" stroke="#334155"/>
+      <circle cx="28" cy="32" r="14" fill="#10b981" fill-opacity="0.2"/>
+      <text x="23" y="37" font-size="14">📱</text>
+      <text x="52" y="27" class="cap-title" fill="#6ee7b7">Mobile Engineering</text>
+      <text x="52" y="46" class="cap-desc">Flutter &amp; Dart cross-platform mobile apps</text>
+    </g>
+
+    <!-- Item 4 -->
+    <g transform="translate(0, 250)">
+      <rect width="340" height="65" rx="10" fill="#1e293b" fill-opacity="0.5" stroke="#334155"/>
+      <circle cx="28" cy="32" r="14" fill="#a855f7" fill-opacity="0.2"/>
+      <text x="23" y="37" font-size="14">☁️</text>
+      <text x="52" y="27" class="cap-title" fill="#c084fc">Cloud &amp; DevOps</text>
+      <text x="52" y="46" class="cap-desc">Docker, CI/CD pipelines &amp; scalable infra</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="410" y1="40" x2="410" y2="340" stroke="#334155" stroke-dasharray="4 4"/>
+
+  <!-- Column 2: Carousel Focus -->
+  <g transform="translate(435, 35)">
+    <text x="0" y="0" class="sec-title">🚀 CURRENT FOCUS &amp; PASSIONS</text>
+    
+    <!-- Carousel Box -->
+    <g transform="translate(0, 25)">
+      <rect width="330" height="230" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+
+      <!-- Slide 1 -->
+      <g transform="translate(20, 25)">
+        <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.30;0.33;0.96;0.98;1;1" dur="12s" repeatCount="indefinite"/>
+        <text x="0" y="20" class="carousel-title" fill="#38bdf8">🤖 Autonomous AI Systems</text>
+        <text x="0" y="55" class="carousel-body">Building self-correcting multi-agent</text>
+        <text x="0" y="78" class="carousel-body">architectures using LangChain, OpenAI API,</text>
+        <text x="0" y="101" class="carousel-body">and custom vector search engines to solve</text>
+        <text x="0" y="124" class="carousel-body">complex real-world automation problems.</text>
+      </g>
+
+      <!-- Slide 2 -->
+      <g transform="translate(20, 25)">
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.32;0.35;0.63;0.66;0.99;1" dur="12s" repeatCount="indefinite"/>
+        <text x="0" y="20" class="carousel-title" fill="#ff354f">⚡ Modern Web &amp; UX</text>
+        <text x="0" y="55" class="carousel-body">Creating visually stunning, lightning-fast</text>
+        <text x="0" y="78" class="carousel-body">web interfaces using React 19, Next.js,</text>
+        <text x="0" y="101" class="carousel-body">and Tailwind CSS with ultra-responsive</text>
+        <text x="0" y="124" class="carousel-body">micro-interactions and modern design.</text>
+      </g>
+
+      <!-- Slide 3 -->
+      <g transform="translate(20, 25)">
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.65;0.68;0.96;0.98;0.99;1" dur="12s" repeatCount="indefinite"/>
+        <text x="0" y="20" class="carousel-title" fill="#a7f3d0">📱 Mobile Innovation</text>
+        <text x="0" y="55" class="carousel-body">Engineering fluid cross-platform mobile</text>
+        <text x="0" y="78" class="carousel-body">applications with Flutter &amp; Dart, featuring</text>
+        <text x="0" y="101" class="carousel-body">clean state management, offline support,</text>
+        <text x="0" y="124" class="carousel-body">and seamless native hardware integrations.</text>
+      </g>
+
+      <!-- Progress Indicators Bar -->
+      <g transform="translate(20, 195)">
+        <!-- Segment 1 -->
+        <rect width="90" height="4" rx="2" fill="#38bdf8">
+          <animate attributeName="opacity" values="1;1;0.3;0.3;0.3;0.3;1" keyTimes="0;0.30;0.33;0.96;0.98;1;1" dur="12s" repeatCount="indefinite"/>
+        </rect>
+        <!-- Segment 2 -->
+        <rect x="100" width="90" height="4" rx="2" fill="#ff354f">
+          <animate attributeName="opacity" values="0.3;0.3;1;1;0.3;0.3;0.3" keyTimes="0;0.32;0.35;0.63;0.66;0.99;1" dur="12s" repeatCount="indefinite"/>
+        </rect>
+        <!-- Segment 3 -->
+        <rect x="200" width="90" height="4" rx="2" fill="#a7f3d0">
+          <animate attributeName="opacity" values="0.3;0.3;0.3;0.3;1;1;0.3" keyTimes="0;0.65;0.68;0.96;0.98;0.99;1" dur="12s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- Small Footer Note -->
+    <g transform="translate(0, 275)">
+      <text x="0" y="20" font-family="'Segoe UI', sans-serif" font-size="12" fill="#64748b">💡 Always learning, building, and exploring new AI tech.</text>
+    </g>
+  </g>
+</svg>
